@@ -5,6 +5,57 @@ Items are in camel case and a-Z
 """
 
 COMP = {
+    "Nasus": {
+        "board_position": 22,
+        "items": ["Bloodthirster", "RapidFirecannon", "TitansResolve"],
+        "level": 3,
+        "final_comp": True,
+    },
+    "Sylas": {
+        "board_position": 3,
+        "items": ["Redemption", "SunfireCape", "WarmogsArmor"],
+        "level": 3,
+        "final_comp": True
+    },
+    "Jinx": {
+        "board_position": 0,
+        "items": ["GuinsoosRageblade", "InfinityEdge", "GiantSlayer"],
+        "level": 3,
+        "final_comp": True
+    },
+    "Riven": {
+        "board_position": 24,
+        "items": ["Redemption", "SunfireCape", "WarmogsArmor"],
+        "level": 3,
+        "final_comp": True,
+    },
+    "Vayne": {
+        "board_position": 5,
+        "items": ["GiantSlayer", "GuinsoosRageblade", "InfinityEdge"],
+        "level": 3,
+        "final_comp": True,
+    },
+    "MissFortune": {
+        "board_position": 6,
+        "items": ["GiantSlayer", "JeweledGauntlet", "SpearofShojin"],
+        "level": 3,
+        "final_comp": True,
+    },
+    "Ekko": {
+        "board_position": 26,
+        "items": ["Redemption", "SunfireCape", "WarmogsArmor"],
+        "level": 3,
+        "final_comp": True
+    },
+    "Sejuani": {
+        "board_position": 25,
+        "items": ["Redemption", "SunfireCape", "WarmogsArmor"],
+        "level": 3,
+        "final_comp": True,
+    },
+}
+
+OLD_COMP = {
     "Ashe": {
         "board_position": 0,
         "items": ["GuinsoosRageblade", "LastWhisper", "GiantSlayer"],
@@ -19,13 +70,13 @@ COMP = {
     },
     "Gangplank": {
         "board_position": 15,
-        "items": [],
+        "items": ["Bloodthirster", "JeweledGauntlet", "TitansResolve"],
         "level": 3,
         "final_comp": True,
     },
     "Malphite": {
         "board_position": 22,
-        "items": ["ZzRotPortal"],
+        "items": ["ZzRotPortal", "Redemption", "WarmogsArmor"],
         "level": 3,
         "final_comp": True,
     },
@@ -37,13 +88,13 @@ COMP = {
     },
     "LeeSin": {
         "board_position": 25,
-        "items": [],
+        "items": ["Redemption", "SunfireCape", "WarmogsArmor"],
         "level": 3,
         "final_comp": True
     },
     "Yasuo": {
         "board_position": 26,
-        "items": ["Bloodthirster", "TitansResolve"],
+        "items": ["Bloodthirster", "TitansResolve", "HandofJustice"],
         "level": 3,
         "final_comp": True,
     },
